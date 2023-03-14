@@ -1,0 +1,96 @@
+.resimSlider {
+
+    height: 740px;
+
+
+}
+
+body {
+
+    padding-top: 10px;
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.hakkimizda {
+
+    background-color: rgb(20, 19, 19);
+}
+
+.cizgi {
+    border: none;
+    border-top: 3px solid #9b9696;
+    max-width: 500px;
+    margin: 25px auto;
+}
+.isiyah{
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid rgb(20, 19, 19);
+    background-color:rgb(20, 19, 19) ;
+
+}
+
+.ibeyaz{
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+
+
+}
+.basarilarimiz{
+
+    background-color:rgb(255, 255, 255);
+
+
+}
+.kadromuz{
+
+    background-color:rgb(0, 0, 0);
+}
+.ikadromuz{
+    
+        position: relative;
+        top: -55px;
+        font-size: 40px;
+        border: 10px solid rgb(0, 0, 0);
+        background-color:rgb(0, 0, 0);
+    
+    
+        
+}
+.bCard>img:hover{
+
+    opacity: 0.8;
+}
+
+.galerimiz{
+
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+}
+
+.iletisim{
+
+    background-color:rgb(0, 0, 0);
+}
+.iletisimm{
+    
+        position: relative;
+        top: -55px;
+        font-size: 40px;
+        border: 10px solid rgb(0, 0, 0);
+        background-color:rgb(0, 0, 0);
+    
+}
+
+
+
+

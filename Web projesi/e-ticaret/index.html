@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KTE & IRMAK SOFTWARE | ONLİNE SATIŞ MAĞAZASI </title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <h2 class="title">K.T.E & IRMAK ELECTRONİC HARDWARE</h2>
+    <ul class="menu">
+      <li class="active">YAZAR KASA</li>
+      <li class="active">POS CİHAZI</li>
+      <li class="active">KUANTUM BİLGİSAYAR</li>
+    </ul>
+    <ul class="menu__icons">
+      <li><i class="bi bi-person"></i></li>
+      <li><i class="bi bi-search"></i></li>
+      <li class="basket__icon" onclick="toggleModal();">
+        <i class="bi bi-bag"></i>
+        <span class="basket__count">2</span>
+      </li>
+    </ul>
+  </nav>
+  <section class="slider">
+    <div id="carouselBookSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/a.jpg" class="d-block w-100" alt="İBM"
+            style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.webp" class="d-block w-100" alt="İBM"
+            style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/1.webp" class="d-block w-100" alt="İBM"
+            style="height: 600px;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBookSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselBookSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="store my-5">
+      <div class="filter__background"></div>
+    <ul class="filter">
+      <li class="active">Tüm Ürünler</li>
+      <li>Pos Cihazları</li>
+      <li>Kuantum Bilgisayarlar</li>
+      <li>Yazar Kasalar</li>
+
+    </ul>
+    <div class="row">
+      <div class="col-5 offset-2 my-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/2.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Hugin T300 Yazarkasa Pos Cihazı</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span class="gray">2023 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">Ödeme Seçenekleri Çip Kart Manyetik Temassız İşlemci Arm®
+              Cortex A5 500 Mhz Güvenli İşlemci Mali Bellek Ömrü 20 Yıl Kullanıcı Ekranı 2,8''
+              Lcd Renkli Ekran (320X240) Renkli Rezistif Dokunmatik Ekran Müşteri Ekranı Oled
+              Grafik Tuş Takımı Arka Aydınlatmalı 20 Adet Tuş Yazıcı Saniyede 30 Satır
+              Baskı Hızı - 40Mm Rulo Kart Yuvası 1 Sam - 1 Sım Bağlantı Girişleri Seri Port
+              (Çekmece, Pinpad Portu, Barkod Okuyucu) Dahili Ethernet Portu Micro Usb Otg
+              Ekü Kapasitesi 80 Milyon Satır Plu Sayısı 100.000 Pil Min 2600 Mah Batarya
+              Güç Kaynağı Dc 9V 1 A Çalışma Sıcaklığı 0 - 45°C Depolama Sıcaklığı -20 - 70°C
+              Boyutlar Ve Ağırlık 164Mm X 80Mm X 63Mm 360 Gram (Pil İle Birlikte)</p>
+            <div>
+              <span class="black fw-bold fs-4">200$</span>
+              <span class="gray fw-bold fs-4 old__price">240$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/z.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Beko 400 TR Temassız Android Yazarkasa+Pos Cihazı</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">134 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">·Günlük Satış RaporuVar
+
+              ·Belirli Sayaçlar İçinVar
+              
+              ·Belirli Tarihler İçinVar
+              
+              ·Belirli Tarihler ArasındaVar
+              
+              ·Dahili AküVar
+              
+              ·Arkaplan Aydınlatma tipiLED
+              
+              ·Belirli Sayaçlar ArasındaVar
+              
+              ·TarihGün/Ay/Yıl
+              
+              ·Saatlik Satış RaporuVar
+              
+              ·Çoklu Banka UygulamaVar
+              
+              ·Dokunmatik EkranVar
+              
+              ·Mobil KullanımVar
+              
+              ·Temassız Ödeme ÖzelliğiVar</p>
+            <div>
+              <span class="black fw-bold fs-4">400$</span>
+              <span class="gray fw-bold fs-4 old__price">540$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 offset-2 my-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images\x.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Ingenıco Move 5000f Yazarkasa Pos</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">1452 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">İşlemci 32 bit - ARM Cortex A Hafıza Micro SD kart okuyucu
+               (32 GB) SAM 2 SIM 1 Kart Okuyucu Temassız Akıllı kart okuyucu Manyetik kart Ekran HVGA - 
+               320x480 piksel (Kapasitif, dokunmatik, renkli ekran) Müşteri Ekranı 1x16 karakter ekran Kablosuz
+                İletişim 4G/3G/2G (backup) Kablolu İletişim Ethernet, 1 micro USB (Host & Slave) İletişim ve Şarj
+                Ünitesi İletişim ve Şarj Ünitesi: 12V - 2.5A Ethernet Çekmece portu Klavye 4x4 tuş takımı & sanal 
+                klavye (Q klavye) Video / Ses Evet/Hayır Termal Yazıcı 30 satır/saniye Güç Kaynağı İletişim ve Şarj 
+                Ünitesi: 12V - 2.5A Pil Li-Ion 2900 mA/h Boyut & Ağırlık 194,4 x 91,1 x 65,85 mm - 420 g Ortam Özellikleri 
+                1.2 m'den düşmelere dayanıklı Çalışma aralığı: -10°C - +45°C Saklama koşulları: -20°C - +55°C Nem: 85% HR 
+                +45°C Güvenlik PCI - PTS 5.x EMV Level 1& 2 Mastercard Paypass Visa Payvawe GİB, TÜBİTAK Barkod Okuyucu Opsiyonel
+                 (1D/2D) GPS Opsiyonel Para Çekmecesi Opsiyonel Taşıma Çantası Opsiyonel EKÜ Hafıza Kapasitesi 3 milyon satır
+                  (12 milyon satır opsiyonel) Mali Hafıza 10 yıl PLU Sayısı 100 bin PLU lngenico Move 5000F uyumlu silikon kılıf 
+                  . Cihaza tam koruma sağlar . Yüksek kalitede silikon malzemeden üretilmiştir</p>
+            <div>
+              <span class="black fw-bold fs-4">110$</span>
+              <span class="gray fw-bold fs-4 old__price">140$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/y.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Profilo S900 ECR Yazar Kasa POS (Temassız Ödeme Özellikli)</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="gray">3012 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">• İster mobil, ister masaüstü
+              • Dokunmatik renkli ekranı
+              • Yüksek batarya kapasitesi
+              • Mobil kullanımda en uzun rulo kapasitesi (32m)
+              • Temassız ve mobil ödeme dahil tüm ödeme türlerini destekler.
+              • BKM TechPOS ile birlikte 13 banka uygulaması
+              • 6 yemek kartı uygulamasını destekler (Sodexo, Ticket Restaurant, Multinet, Metropol, PAYE, TokenFlex)
+              • Katma değerli servisler ve raporlama yazılımı ProVAS ile işletmelere kolaylık sağlar</p>
+            <div>
+              <span class="black fw-bold fs-4">500$</span>
+              <span class="gray fw-bold fs-4 old__price">780$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 offset-2 my-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/1.webp" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Vera Delta Plus</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">223 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">Ödeme Seçenekleri Çip Kart Manyetik Temassız İşlemci Arm®
+              Cortex A5 500 Mhz Güvenli İşlemci Mali Bellek Ömrü 20 Yıl Kullanıcı Ekranı 2,8''
+              Lcd Renkli Ekran (320X240) Renkli Rezistif Dokunmatik Ekran Müşteri Ekranı Oled
+              Grafik Tuş Takımı Arka Aydınlatmalı 20 Adet Tuş Yazıcı Saniyede 30 Satır
+              Baskı Hızı - 40Mm Rulo Kart Yuvası 1 Sam - 1 Sım Bağlantı Girişleri Seri Port
+              (Çekmece, Pinpad Portu, Barkod Okuyucu) Dahili Ethernet Portu Micro Usb Otg
+              Ekü Kapasitesi 80 Milyon Satır Plu Sayısı 100.000 Pil Min 2600 Mah Batarya
+              Güç Kaynağı Dc 9V 1 A Çalışma Sıcaklığı 0 - 45°C Depolama Sıcaklığı -20 - 70°C
+              Boyutlar Ve Ağırlık 164Mm X 80Mm X 63Mm 360 Gram (Pil İle Birlikte)</p>
+            <div>
+              <span class="black fw-bold fs-4">133$</span>
+              <span class="gray fw-bold fs-4 old__price">240$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/a.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">IBM KUANTUM BİLGİSAYAR</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="gray">101 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">Kuantum bilgisayarı veri üzerinde işlem yapmak için bindirme 
+              ve dolaşma gibi kuantum-mekanik fenomenin doğrudan kullanımını sağlayan teorik hesaplama sistemlerini
+               kullanan bilgisayarlardır.</p>
+            <div>
+              <span class="black fw-bold fs-4">22.000.000$</span>
+              <span class="gray fw-bold fs-4 old__price">24.000.000$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 offset-2 my-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/b.webp" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">IBM 433 KUANTUM</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span class="gray">160 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">IBM, bugün Q Experience projesiyle kuantum bilgisayar
+               deneyimini herkese bulut sistem üzerinden sunuyor. Ayrıca 7 kubitlik sistemi ile yaptığı
+                berilyum hidrür simülasyonu sayesinde kuantum bilgisayarların yalnızca bilişim alanında 
+                değil kimya gibi alanlarda da kullanımını gözler önüne seriyor</p>
+            <div>
+              <span class="black fw-bold fs-4">1.500.000$</span>
+              <span class="gray fw-bold fs-4 old__price">1.900.000$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 mb-5">
+        <div class="row book__card">
+          <div class="col-6">
+            <img class="img-fluid shadow" width="258" height="400"
+              src="images/2.jpg" alt="POS">
+          </div>
+          <div class="col-6 d-flex flex-column  justify-content-between">
+            <div class="book__detail">
+              <span class="fw-bold fs-4">Hugin P657  Pos Cihazı</span> <br>
+              <span class="pos__star-rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">2023 Yorum</span> <br> <br>
+              </span>
+            </div>
+            <p class="poss_description fos gray">Ödeme Seçenekleri Çip Kart Manyetik Temassız İşlemci Arm®
+              Cortex A5 500 Mhz Güvenli İşlemci Mali Bellek Ömrü 20 Yıl Kullanıcı Ekranı 2,8''
+              Lcd Renkli Ekran (320X240) Renkli Rezistif Dokunmatik Ekran Müşteri Ekranı Oled
+              Grafik Tuş Takımı Arka Aydınlatmalı 20 Adet Tuş Yazıcı Saniyede 30 Satır
+              Baskı Hızı - 40Mm Rulo Kart Yuvası 1 Sam - 1 Sım Bağlantı Girişleri Seri Port
+              (Çekmece, Pinpad Portu, Barkod Okuyucu) Dahili Ethernet Portu Micro Usb Otg
+              Ekü Kapasitesi 80 Milyon Satır Plu Sayısı 100.000 Pil Min 2600 Mah Batarya
+              Güç Kaynağı Dc 9V 1 A Çalışma Sıcaklığı 0 - 45°C Depolama Sıcaklığı -20 - 70°C
+              Boyutlar Ve Ağırlık 164Mm X 80Mm X 63Mm 360 Gram (Pil İle Birlikte)</p>
+            <div>
+              <span class="black fw-bold fs-4">360$</span>
+              <span class="gray fw-bold fs-4 old__price">440$</span>
+            </div>
+            <button class="btn__purple">SEPETE EKLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="basket__modal">
+    <div class="basket__items">
+      <i class="bi bi-x" onclick="toggleModal();"></i>
+      <h2 class="basket__title">Ürünlerim</h2>
+      <ul class="basket__list">
+        <li class="basket__item">
+          <img src="images/3.webp"  width="50%" height="50%" alt="Yazar Kasa">
+          <div class="basket__item-info">
+            <h3 class="book__name">Yazar Kasa</h3>
+            <span class="book_price ">45$</span>
+            <span class="book__remove">remove</span>
+          </div>
+          <div class="book__count">
+            <span class="decrease">-</span>
+            <span class="my-3">2</span>
+            <span class="increase">+</span>
+          </div>
+        </li>
+        <li class="basket__item">
+          <img src="images/3.webp"  width="50%" height="50%" alt="Yazar Kasa">
+          <div class="basket__item-info">
+            <h3 class="book__name">Yazar Kasa</h3>
+            <span class="book_price ">45$</span>
+            <span class="book__remove">remove</span>
+          </div>
+          <div class="book__count">
+            <span class="decrease">-</span>
+            <span class="my-3">2</span>
+            <span class="increase">+</span>
+          </div>
+        </li>
+        <li class="basket__item">
+          <img src="images/3.webp"  width="50%" height="50%" alt="Yazar Kasa">
+          <div class="basket__item-info">
+            <h3 class="book__name">Yazar Kasa</h3>
+            <span class="book_price ">45$</span>
+            <span class="book__remove">remove</span>
+          </div>
+          <div class="book__count">
+            <span class="decrease">-</span>
+            <span class="my-3">2</span>
+            <span class="increase">+</span>
+          </div>
+        </li>
+      </li>
+      <li class="basket__item">
+        <img src="images/3.webp"  width="50%" height="50%" alt="Yazar Kasa">
+        <div class="basket__item-info">
+          <h3 class="book__name">Yazar Kasa</h3>
+          <span class="book_price ">45$</span>
+          <span class="book__remove">remove</span>
+        </div>
+        <div class="book__count">
+          <span class="decrease">-</span>
+          <span class="my-3">2</span>
+          <span class="increase">+</span>
+        </div>
+      </li>
+      <li class="basket__item">
+        <img src="images/3.webp"  width="50%" height="50%" alt="Yazar Kasa">
+        <div class="basket__item-info">
+          <h3 class="book__name">Yazar Kasa</h3>
+          <span class="book_price ">45$</span>
+          <span class="book__remove">remove</span>
+        </div>
+        <div class="book__count">
+          <span class="decrease">-</span>
+          <span class="my-3">2</span>
+          <span class="increase">+</span>
+        </div>
+      </li>
+      
+      </ul>
+      <div class="basket__total">
+        <span class="fw-bold mb-3 fs-4">TOPLAM: 1081$</span>
+        <button class="btn__purple">ÖDEME</button>
+      </div>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
